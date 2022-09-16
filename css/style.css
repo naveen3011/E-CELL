@@ -1,13 +1,6 @@
 /* CSS Document */
 
-/* 
-    Created on : 1/15/2017. 
-    Theme Name : BizPro.
-    Description: BizPro- Responsive html5 template.
-    Version    : 1.1.
-    Author     : @SRThemes.
-   
-*/
+
 
 /* ------------------------------------------ */
 /*             TABLE OF CONTENTS
@@ -90,7 +83,7 @@
   bottom:0px;
   width: 6px;
   height: 5px;
-  background:#e04f5d; 
+  background:#00B1EF; 
   position:absolute;
   animation: preloader_1 1.5s  infinite ease-in-out;
 }
@@ -113,10 +106,10 @@ left:44px;
 animation-delay: .8s;
 }
 @keyframes preloader_1 {
-    0% {height:5px;transform:translateY(0px);background:#e62d3f;}
-    25% {height:30px;transform:translateY(15px);background:#e62d3f;}
-    50% {height:5px;transform:translateY(0px);background:#ee2438;}
-    100% {height:5px;transform:translateY(0px);background:#ee2438;}
+    0% {height:5px;transform:translateY(0px);background:#00B1EF;}
+    25% {height:30px;transform:translateY(15px);background:#00B1EF;}
+    50% {height:5px;transform:translateY(0px);background:#00B1EF;}
+    100% {height:5px;transform:translateY(0px);background:#00B1EF;}
 }
 /* --------------nk---------------------- */
 .logo{
@@ -273,13 +266,13 @@ span{
 .blog-details-post-wrapper .list-img-wrapper ul li a:hover,.blog-details-post-wrapper .post-comment form button:hover,
 .blog-details-post-wrapper .post-share-area .share li a:hover,.theme-main-menu.navbar .nav>li ul li a:hover,
 .blog-details-post-wrapper .post-share-area .share li a.active {
-  color:#d73e4d;
+  color:#00B1EF;
 }
 .p-color-bg,.theme-title h2:before,#about-us .single-about-content:hover .icon,
 #skill-section .codeconSkillbar .skillBar,#our-client .owl-theme .owl-dots .owl-dot.active span,
 #our-client .owl-theme .owl-dots .owl-dot:hover span,
 .blog-details-post-wrapper .comment-area .single-comment .comment button:hover {
-  background: #d73e4d;
+  background: #00B1EF;
 }
 .banner .project-button,#about-us .icon,#about-us .single-about-content a.more,
 #service-section .single-service-content:hover,#project-section .project-menu ul li.active,
@@ -289,7 +282,7 @@ span{
 #contact-section .contact-address-content .left-side ul li .icon,#contact-section .send-message form button,
 .sidebar-tags ul li a:hover,.blog-details-post-wrapper .post-comment form button,
 .blog-details-post-wrapper .post-comment textarea:focus,.blog-details-post-wrapper .post-comment input:focus {
-  border-color:#d73e4d;
+  border-color:#00B1EF;
   border-style: solid;
 }
 /*** 
@@ -579,7 +572,7 @@ span{
   left:0;
   right: 0;
   bottom: 0;
-  background: rgba(215,67,77,0.9);
+  background: #00B1EF;
   opacity: 0;
   -webkit-transform: scale(0.2);
      -moz-transform: scale(0.2);
@@ -827,9 +820,14 @@ span{
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a {
-  color: #d8545d;
-  border-color:#d8545d;
+  color: #29d0f5;
+  border-color:#289ae6;
 }
+
+
+
+
+
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a {
   color: #007ab9;
@@ -845,7 +843,7 @@ span{
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(3) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(4) a:hover {
-  background: #d8545d;
+  background: #1ebcfa;
 }
 #team-section .team-member-wrapper .single-team-member .member-name ul li:nth-child(4) a:hover,
 .blog-details-post-wrapper .post-share-area .share-icon li:nth-child(5) a:hover {
